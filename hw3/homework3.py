@@ -232,7 +232,7 @@ def test_model(model_path, num_episodes=100, render=False, algorithm='vpg'):
 if __name__ == "__main__":
     if args.test:
         algorithm = 'sac' if 'sac' in args.model_path else 'vpg'
-        test_model(args.model_path, num_episodes=100, render=args.render, algorithm=algorithm)
+        test_model(args.model_path, num_episodes=5, render=args.render, algorithm=algorithm)
     else:
         render_mode = "gui" if args.render else "offscreen"
         env = Hw3Env(render_mode=render_mode)
