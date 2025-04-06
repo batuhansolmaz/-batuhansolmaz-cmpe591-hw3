@@ -18,7 +18,6 @@ A state-of-the-art off-policy algorithm that optimizes a stochastic policy with 
 
 ## Results
 ### Note that I used a different reward function
-### Note that I used a different reward function
 
 
 ### VPG Training Performance
