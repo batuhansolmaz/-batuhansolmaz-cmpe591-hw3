@@ -15,7 +15,11 @@ A state-of-the-art off-policy algorithm that optimizes a stochastic policy with 
 - Automatic entropy tuning
 - Separate actor and critic networks
 
+
 ## Results
+
+### Note that I used a different reward function
+
 
 ### VPG Training Performance
 ![VPG Training Curve](vpg.png)
